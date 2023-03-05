@@ -1,0 +1,27 @@
+body {
+    background-color: #222;
+    color: #999;
+}
+
+.container {
+    border: 3px solid red;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 100px);
+/*column-gap: 5px;
+row-gap: 10px;/*/
+}
+
+
+.item {
+    border: 2px solid yellow;
+    padding: 16px;
+}
+.ocho {
+    background-color: antiquewhite;
+}
+
+.diez {
+    background-color: aqua;
+    grid-column-start: 2;
+}
